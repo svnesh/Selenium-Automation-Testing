@@ -18,8 +18,7 @@ public class TestUtils extends TestBase{
 	public static long PAGELOADTIMEOUT = 30;
 	public static long IMPLICITWAIT = 10;
 	
-	public static String PATH_TEST_DATA = "C:\\Users\\hp\\eclipse-workspace\\FreeEcomTest\\"
-			+ "src\\main\\java\\com\\ecom1\\qa\\testdata\\ecomTestData.xlsx";
+	public static String PATH_TEST_DATA = System.getProperty("user.dir") + "/src/main/java/com/ecom1/qa/testdata/ecomTestData.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;
