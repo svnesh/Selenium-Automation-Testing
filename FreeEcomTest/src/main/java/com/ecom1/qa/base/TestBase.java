@@ -20,8 +20,7 @@ public class TestBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\hp\\eclipse-workspace\\FreeEcomTest\\"
-					+ "src\\main\\java\\com\\ecom1\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/ecom1/qa/config/config.properties");
 			prop.load(ip);
 			
 		}catch(FileNotFoundException e) {
@@ -35,7 +34,7 @@ public class TestBase {
 		
 		String browserName = prop.getProperty("browser");
 		if (browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\vignesh\\downloads\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
