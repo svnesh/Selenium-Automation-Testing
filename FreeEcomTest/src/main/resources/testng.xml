@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FREE ecommerce automation testing Suite">
+
+	<listeners>
+		<listener class-name="com.ecom1.qa.testlisteners.ExtentReportListener"/>
+	</listeners>
+	
+	<test name="Free ecmmerce Application Test Cases">
+	
+		<classes>
+			<class name="com.ecom1.qa.testcases.HomePageTest"></class> 
+			<class name="com.ecom1.qa.testcases.SearchPageTest"></class>
+			<class name="com.ecom1.qa.testcases.ProductPageTest"></class>
+		</classes>
+		
+	</test>	
+</suite>
