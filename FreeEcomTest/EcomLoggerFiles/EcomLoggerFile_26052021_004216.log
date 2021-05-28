@@ -1,0 +1,8 @@
+2021-05-26 00:42:25,715  INFO [main] HomePageTest:22 - Application initialized...
+2021-05-26 00:42:25,789  INFO [main] SearchPage:31 - Home page title verified
+2021-05-26 00:42:26,681  INFO [main] SearchPage:63 - Browser terminated
+2021-05-26 00:42:26,683  INFO [main] SearchPage:64 - --------------------------------
+2021-05-26 00:42:34,817  INFO [main] SearchPage:22 - Application initialized...
+2021-05-26 00:42:34,913  INFO [main] SearchPage:37 - Home page logo verified
+2021-05-26 00:42:35,731  INFO [main] SearchPage:63 - Browser terminated
+2021-05-26 00:42:35,733  INFO [main] SearchPage:64 - --------------------------------
